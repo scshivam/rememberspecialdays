@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ob_implicit_flush(true);
-
+// sending messages script
 include_once "class.curl.php";
 include_once "class.sms.php";
 include_once "cprint.php";
